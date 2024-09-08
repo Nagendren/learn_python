@@ -1,0 +1,31 @@
+Case Study IDomain –BankingFocus –OptimizationBusiness challenge/requirementFinBankis the latest entrant 
+in the banking market of Thailand.  The verification process for opening a bank account is done manually 
+by reviewing the photocopy of the approved ID card. However, they have recently introduced a system where 
+the customers’ fingerprint will be mapped with the newly introduced Unique ID for citizens of Thailand by 
+the government. FinBank should implement a system that verifies customers against the fingerprint and Unique Id. 
+
+Key issues
+Build a system where when a user enters UniqueIDit getsencrypted so that hackers cannot view the mapping 
+of Unique ID and fingerprint
+
+Considerations System should be secure
+
+Data volume
+-NA
+Additional information
+-NA
+
+Business benefits
+
+The bank will be able to verify customers’ data quickly, 
+and expected gain in volume is approximately ten times as the manual process of verification is 
+replaced with the secure automated system
+
+Approach to Solve
+1.Read the input from command line –UniqueID
+2.Check for validityof Unique ID–it should be 10digits and must containonly numbers
+3.Encrypt the UniqueID and print it Enhancements for code
+
+You can try these enhancements in code
+1.Allow alphabets and some special characters in Unique ID
+2.Providethe option for decryption to user 
